@@ -12,3 +12,10 @@ This notebook comprises of the 3 main parts:
   1. Data clean-up and extrapolation
   2. SIR Model
   3. Plotting using KeplerGL
+
+Requriments
+  * pandas
+  * numpy
+  * geopandas
+  * keplergl
+  * plotly
