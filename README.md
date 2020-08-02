@@ -7,7 +7,7 @@ This notebook is an attempt to simplify and help understand how to model a pande
 
 ### What is happening here ?
 1) <b>Data clean-up and extrapolation</b> <br>
-  Firstly covid data from late April/early May was collect from a BBMP source which had labeled each ward in Bengaluru with color-coding to indicate sevirity of the the outbreak(this can be found in BBMP.csv). This data coupled with cencus data of Bengaluru is used to factor in attributes such as population and area size of each ward which maybe a potential factor in the spread of the disease.
+  Firstly covid data from late April/early May was collect from a BBMP source which had labeled each ward in Bengaluru with color-coding to indicate sevirity of the the outbreak(this can be found in BBMP.csv). This data coupled with census data of Bengaluru is used to factor in attributes such as population and area size of each ward which maybe a potential factor in the spread of the disease.
 
 2) <b>SIR Modeling</b><br>
   Both these data are combined and used to model the pandemic using the SIR technique.The data presented in all the graphs is for a set time frame of 90 or 120 days(can be changed for any time-period in the code) and day 0 can be thought of as first day an infection was recorded in the ward, for simplicity can be assumed as May 1st 2020.
